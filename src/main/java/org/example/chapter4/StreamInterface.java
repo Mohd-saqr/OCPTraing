@@ -1,5 +1,6 @@
 package org.example.chapter4;
 
+import java.sql.Connection;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -15,6 +16,7 @@ public class StreamInterface {
 
         Stream stream = Stream.empty();
         Stream stream1 = Stream.of();
+
     }
 
 
@@ -25,7 +27,12 @@ public class StreamInterface {
     void terminalOperation(){
 
 
-        Stream<Integer> stream = Stream.empty();
+        Stream<String> stream = Stream.of("ts","gs","oo");
+
+
+
+
+
 
         // **if the stream empty return true**
        // System.out.println(stream.allMatch(i -> i<0));

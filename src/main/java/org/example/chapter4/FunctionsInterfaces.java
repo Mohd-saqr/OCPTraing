@@ -27,6 +27,11 @@ public class FunctionsInterfaces {
      *  T apply(T)
      * BinaryOperato<T T> take to and return T
      *  T apply(T T)
+     *  Function has a tow default method compose and andThen and has static method identity
+     *  for BiFunction it has just andThen default method
+     *  for the unary operator it has just static method identity
+     *  for the ninary operator it has deffirent methd minBy and Max By
+     *
      */
 
 
